@@ -8,23 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		362010B32BACB25000D051C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 362010B22BACB25000D051C3 /* main.cpp */; };
-		362010B62BACB25000D051C3 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 362010B52BACB25000D051C3 /* background.jpg */; };
-		362010B82BACB25000D051C3 /* doodle_pop.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 362010B72BACB25000D051C3 /* doodle_pop.ogg */; };
-		362010BA2BACB25000D051C3 /* tuffy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 362010B92BACB25000D051C3 /* tuffy.ttf */; };
-		362010BC2BACB25000D051C3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 362010BB2BACB25000D051C3 /* icon.png */; };
 		368942352BC99D7C00E713C2 /* wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 368942342BC99D7C00E713C2 /* wall.jpg */; };
+		368942382BCAB5C200E713C2 /* Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 368942362BCAB5C200E713C2 /* Math.cpp */; };
+		3689423C2BCABA0C00E713C2 /* Move_player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3689423A2BCABA0C00E713C2 /* Move_player.cpp */; };
+		3689423F2BCADE9500E713C2 /* Init_game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3689423D2BCADE9500E713C2 /* Init_game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		362010AA2BACB25000D051C3 /* 3d-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3d-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		362010AE2BACB25000D051C3 /* 3d-game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "3d-game-Info.plist"; path = "../3d-game-Info.plist"; sourceTree = "<group>"; };
 		362010B22BACB25000D051C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		362010B52BACB25000D051C3 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../background.jpg; sourceTree = "<group>"; };
-		362010B72BACB25000D051C3 /* doodle_pop.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = doodle_pop.ogg; path = ../doodle_pop.ogg; sourceTree = "<group>"; };
-		362010B92BACB25000D051C3 /* tuffy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = tuffy.ttf; path = ../tuffy.ttf; sourceTree = "<group>"; };
-		362010BB2BACB25000D051C3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
 		362010C22BACB71A00D051C3 /* 3d-game.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "3d-game.entitlements"; sourceTree = "<group>"; };
 		368942342BC99D7C00E713C2 /* wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall.jpg; sourceTree = "<group>"; };
+		368942362BCAB5C200E713C2 /* Math.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Math.cpp; sourceTree = "<group>"; };
+		368942372BCAB5C200E713C2 /* Math.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Math.hpp; sourceTree = "<group>"; };
+		3689423A2BCABA0C00E713C2 /* Move_player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Move_player.cpp; sourceTree = "<group>"; };
+		3689423B2BCABA0C00E713C2 /* Move_player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Move_player.hpp; sourceTree = "<group>"; };
+		3689423D2BCADE9500E713C2 /* Init_game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Init_game.cpp; sourceTree = "<group>"; };
+		3689423E2BCADE9500E713C2 /* Init_game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Init_game.hpp; sourceTree = "<group>"; };
+		368942412BCAE59A00E713C2 /* Global_functions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Global_functions.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,32 +58,34 @@
 		362010AC2BACB25000D051C3 /* 3d-game */ = {
 			isa = PBXGroup;
 			children = (
+				368942442BCAE84400E713C2 /* Cpp files */,
+				368942432BCAE81600E713C2 /* Headers */,
 				368942342BC99D7C00E713C2 /* wall.jpg */,
 				362010C22BACB71A00D051C3 /* 3d-game.entitlements */,
-				362010B22BACB25000D051C3 /* main.cpp */,
-				362010B42BACB25000D051C3 /* Resources */,
-				362010AD2BACB25000D051C3 /* Supporting Files */,
 			);
 			path = "3d-game";
 			sourceTree = "<group>";
 		};
-		362010AD2BACB25000D051C3 /* Supporting Files */ = {
+		368942432BCAE81600E713C2 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				362010AE2BACB25000D051C3 /* 3d-game-Info.plist */,
+				3689423E2BCADE9500E713C2 /* Init_game.hpp */,
+				3689423B2BCABA0C00E713C2 /* Move_player.hpp */,
+				368942412BCAE59A00E713C2 /* Global_functions.hpp */,
+				368942372BCAB5C200E713C2 /* Math.hpp */,
 			);
-			path = "Supporting Files";
+			path = Headers;
 			sourceTree = "<group>";
 		};
-		362010B42BACB25000D051C3 /* Resources */ = {
+		368942442BCAE84400E713C2 /* Cpp files */ = {
 			isa = PBXGroup;
 			children = (
-				362010B52BACB25000D051C3 /* background.jpg */,
-				362010B72BACB25000D051C3 /* doodle_pop.ogg */,
-				362010B92BACB25000D051C3 /* tuffy.ttf */,
-				362010BB2BACB25000D051C3 /* icon.png */,
+				368942362BCAB5C200E713C2 /* Math.cpp */,
+				3689423A2BCABA0C00E713C2 /* Move_player.cpp */,
+				3689423D2BCADE9500E713C2 /* Init_game.cpp */,
+				362010B22BACB25000D051C3 /* main.cpp */,
 			);
-			path = Resources;
+			path = "Cpp files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,11 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				362010BC2BACB25000D051C3 /* icon.png in Resources */,
 				368942352BC99D7C00E713C2 /* wall.jpg in Resources */,
-				362010B82BACB25000D051C3 /* doodle_pop.ogg in Resources */,
-				362010B62BACB25000D051C3 /* background.jpg in Resources */,
-				362010BA2BACB25000D051C3 /* tuffy.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3689423C2BCABA0C00E713C2 /* Move_player.cpp in Sources */,
 				362010B32BACB25000D051C3 /* main.cpp in Sources */,
+				368942382BCAB5C200E713C2 /* Math.cpp in Sources */,
+				3689423F2BCADE9500E713C2 /* Init_game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
