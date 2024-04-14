@@ -11,13 +11,8 @@ using namespace sf;
 using namespace std;
 using namespace gf;
 
-//Все константы игры
-const int n = 802;
-const Vector2f screen(800.f, 600.f);
-const float radius = 100.f; //радиус угла обзора
-
 //Класс инициализации
-class init_game: public math {
+class init_game: private math {
 public:
     CircleShape player;
     ConvexShape sector;
