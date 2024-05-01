@@ -10,7 +10,8 @@ void game_start::start()
         //Вращение игрока
         float current_angle = sector.getRotation();
         rotation(sector, screen, current_angle);
-        draw_lines(current_angle);
+        for (int i = 0; i < n-2; ++i)
+            draw_lines(current_angle,i);
         Mouse::setPosition(Vector2i(screen.x/2, screen.y/2));
         
         //Движение игрока

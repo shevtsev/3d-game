@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		362010B32BACB25000D051C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 362010B22BACB25000D051C3 /* main.cpp */; };
 		368942352BC99D7C00E713C2 /* wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 368942342BC99D7C00E713C2 /* wall.jpg */; };
-		368942382BCAB5C200E713C2 /* Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 368942362BCAB5C200E713C2 /* Math.cpp */; };
 		3689423C2BCABA0C00E713C2 /* Move_player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3689423A2BCABA0C00E713C2 /* Move_player.cpp */; };
 		3689423F2BCADE9500E713C2 /* Init_game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3689423D2BCADE9500E713C2 /* Init_game.cpp */; };
 		368942472BCBE3EA00E713C2 /* Game_start.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 368942452BCBE3EA00E713C2 /* Game_start.cpp */; };
@@ -20,8 +19,6 @@
 		362010B22BACB25000D051C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		362010C22BACB71A00D051C3 /* 3d-game.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "3d-game.entitlements"; sourceTree = "<group>"; };
 		368942342BC99D7C00E713C2 /* wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall.jpg; sourceTree = "<group>"; };
-		368942362BCAB5C200E713C2 /* Math.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Math.cpp; sourceTree = "<group>"; };
-		368942372BCAB5C200E713C2 /* Math.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Math.hpp; sourceTree = "<group>"; };
 		3689423A2BCABA0C00E713C2 /* Move_player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Move_player.cpp; sourceTree = "<group>"; };
 		3689423B2BCABA0C00E713C2 /* Move_player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Move_player.hpp; sourceTree = "<group>"; };
 		3689423D2BCADE9500E713C2 /* Init_game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Init_game.cpp; sourceTree = "<group>"; };
@@ -76,7 +73,6 @@
 				3689423E2BCADE9500E713C2 /* Init_game.hpp */,
 				3689423B2BCABA0C00E713C2 /* Move_player.hpp */,
 				368942412BCAE59A00E713C2 /* Global_functions.hpp */,
-				368942372BCAB5C200E713C2 /* Math.hpp */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
@@ -84,7 +80,6 @@
 		368942442BCAE84400E713C2 /* Cpp files */ = {
 			isa = PBXGroup;
 			children = (
-				368942362BCAB5C200E713C2 /* Math.cpp */,
 				3689423A2BCABA0C00E713C2 /* Move_player.cpp */,
 				3689423D2BCADE9500E713C2 /* Init_game.cpp */,
 				362010B22BACB25000D051C3 /* main.cpp */,
@@ -185,7 +180,6 @@
 			files = (
 				3689423C2BCABA0C00E713C2 /* Move_player.cpp in Sources */,
 				362010B32BACB25000D051C3 /* main.cpp in Sources */,
-				368942382BCAB5C200E713C2 /* Math.cpp in Sources */,
 				3689423F2BCADE9500E713C2 /* Init_game.cpp in Sources */,
 				368942472BCBE3EA00E713C2 /* Game_start.cpp in Sources */,
 			);
