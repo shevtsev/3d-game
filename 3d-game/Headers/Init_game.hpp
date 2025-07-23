@@ -14,7 +14,7 @@ using namespace gf;
 class init_game {
 private:
     vector<RectangleShape> target, ray_tr;
-    vector <Vector2i> wall = {Vector2i(0, 1), Vector2i(0, 3), Vector2i(2, 3), Vector2i(1, 2)};
+    vector<Vector2i> wall = {Vector2i(0, 1), Vector2i(0, 3), Vector2i(2, 3), Vector2i(1, 2)};
     
     //Основной алгоритм обнаружения расстояния до пересечения прямых в пространстве
     bool collision(Vector2f const &v11, Vector2f const &v12, Vector2f const &v21, Vector2f const &v22, Vector2f *crossing);
@@ -22,6 +22,8 @@ private:
 public:
     CircleShape player;
     ConvexShape sector;
+    
+    void targetSet(Vector2f const &size, Vector2f const &position, Color clr, RectangleShape& tar);
     
     //Инициализация объектов карты
     void map_objs_init();

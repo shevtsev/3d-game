@@ -12,11 +12,14 @@ using namespace gf;
 
 //Класс передвижения
 class move_player {
+private:
+    const float speed = 0.05f;
+    const float step_ang = 3.f;
 public:
     //Движение во все стороны
-    void move(ConvexShape& sector, CircleShape& player, float current_angle);
+    void move(ConvexShape& sector, CircleShape& player, float const &current_angle);
 
     //Поворот камеры
-    void rotation(ConvexShape& sector, Vector2f screen, float current_angle);
+    void rotation(ConvexShape& sector, float const &current_angle);
 };
 #endif /* Move_player_hpp */

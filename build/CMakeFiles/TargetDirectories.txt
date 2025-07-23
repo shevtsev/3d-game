@@ -1,0 +1,3 @@
+/Users/fedorshevtsev/Documents/Pseudo3DGame/build/CMakeFiles/Pseudo3DGame.dir
+/Users/fedorshevtsev/Documents/Pseudo3DGame/build/CMakeFiles/edit_cache.dir
+/Users/fedorshevtsev/Documents/Pseudo3DGame/build/CMakeFiles/rebuild_cache.dir
