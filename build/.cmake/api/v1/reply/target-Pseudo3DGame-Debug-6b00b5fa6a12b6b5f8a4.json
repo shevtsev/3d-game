@@ -56,7 +56,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -std=c++17 -arch x86_64 -iframework /Library/Frameworks/. "
+					"fragment" : " -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch x86_64 -iframework /Library/Frameworks/. "
 				}
 			],
 			"frameworks" : 
@@ -118,7 +118,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-isystem /Library/Developer/CommandLineTools/usr/include/c++/v1",
+				"fragment" : "-isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g",
 				"role" : "flags"
 			},
 			{

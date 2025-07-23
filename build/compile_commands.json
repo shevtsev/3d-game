@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/fedorshevtsev/Documents/Pseudo3DGame/build",
+  "command": "/usr/bin/clang++  -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Users/fedorshevtsev/Documents/Pseudo3DGame -I/Users/fedorshevtsev/Documents/Pseudo3DGame/3d-game/Headers -F/Library/Frameworks -iframework /Library/Frameworks/.  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch x86_64 -iframework /Library/Frameworks/.  -o CMakeFiles/Pseudo3DGame.dir/3d-game/src/main.cpp.o -c /Users/fedorshevtsev/Documents/Pseudo3DGame/3d-game/src/main.cpp",
+  "file": "/Users/fedorshevtsev/Documents/Pseudo3DGame/3d-game/src/main.cpp",
+  "output": "CMakeFiles/Pseudo3DGame.dir/3d-game/src/main.cpp.o"
+},
+{
+  "directory": "/Users/fedorshevtsev/Documents/Pseudo3DGame/build",
+  "command": "/usr/bin/clang++  -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Users/fedorshevtsev/Documents/Pseudo3DGame -I/Users/fedorshevtsev/Documents/Pseudo3DGame/3d-game/Headers -F/Library/Frameworks -iframework /Library/Frameworks/.  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch x86_64 -iframework /Library/Frameworks/.  -o CMakeFiles/Pseudo3DGame.dir/3d-game/src/Game_start.cpp.o -c /Users/fedorshevtsev/Documents/Pseudo3DGame/3d-game/src/Game_start.cpp",
+  "file": "/Users/fedorshevtsev/Documents/Pseudo3DGame/3d-game/src/Game_start.cpp",
+  "output": "CMakeFiles/Pseudo3DGame.dir/3d-game/src/Game_start.cpp.o"
+},
+{
+  "directory": "/Users/fedorshevtsev/Documents/Pseudo3DGame/build",
+  "command": "/usr/bin/clang++  -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Users/fedorshevtsev/Documents/Pseudo3DGame -I/Users/fedorshevtsev/Documents/Pseudo3DGame/3d-game/Headers -F/Library/Frameworks -iframework /Library/Frameworks/.  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch x86_64 -iframework /Library/Frameworks/.  -o CMakeFiles/Pseudo3DGame.dir/3d-game/src/Init_game.cpp.o -c /Users/fedorshevtsev/Documents/Pseudo3DGame/3d-game/src/Init_game.cpp",
+  "file": "/Users/fedorshevtsev/Documents/Pseudo3DGame/3d-game/src/Init_game.cpp",
+  "output": "CMakeFiles/Pseudo3DGame.dir/3d-game/src/Init_game.cpp.o"
+},
+{
+  "directory": "/Users/fedorshevtsev/Documents/Pseudo3DGame/build",
+  "command": "/usr/bin/clang++  -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Users/fedorshevtsev/Documents/Pseudo3DGame -I/Users/fedorshevtsev/Documents/Pseudo3DGame/3d-game/Headers -F/Library/Frameworks -iframework /Library/Frameworks/.  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch x86_64 -iframework /Library/Frameworks/.  -o CMakeFiles/Pseudo3DGame.dir/3d-game/src/Move_player.cpp.o -c /Users/fedorshevtsev/Documents/Pseudo3DGame/3d-game/src/Move_player.cpp",
+  "file": "/Users/fedorshevtsev/Documents/Pseudo3DGame/3d-game/src/Move_player.cpp",
+  "output": "CMakeFiles/Pseudo3DGame.dir/3d-game/src/Move_player.cpp.o"
+}
+]

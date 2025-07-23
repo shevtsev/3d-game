@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Users/fedorshevtsev/Documents/Pseudo3DGame -I/Users/fedorshevtsev/Documents/Pseudo3DGame/3d-game/Headers -F/Library/Frameworks -iframework /Library/Frameworks/.
 
-CXX_FLAGSx86_64 =  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -std=c++17 -arch x86_64 -iframework /Library/Frameworks/. 
+CXX_FLAGSx86_64 =  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch x86_64 -iframework /Library/Frameworks/. 
 
-CXX_FLAGS =  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -std=c++17 -arch x86_64 -iframework /Library/Frameworks/. 
+CXX_FLAGS =  -isystem /Library/Developer/CommandLineTools/usr/include/c++/v1 -g -std=c++17 -arch x86_64 -iframework /Library/Frameworks/. 
 
