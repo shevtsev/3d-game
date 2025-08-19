@@ -78,7 +78,7 @@ void init_game::draw_lines(float current_angle, int ind) {
         line.setFillColor(Color::Black);
         for (float p = 7.f; p >= 1.f; p-=0.005f) {
             if (min_dist[0] < radius/p) {
-                Uint8 x = 30 * p;
+                Uint8 x = 35 * p;
                 line.setFillColor(Color(x, x, x));
                 break;
             }
